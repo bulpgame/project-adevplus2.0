@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Adevplus20 Core
+Comment=Adevplus20 P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Adevplus20 peer-to-peer Netzwerk
+Comment[fr]=Adevplus20, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Adevplus20, eşten eşe kriptografik sanal para birimi
+Exec=adevplus20-qt %u
+Terminal=false
+Type=Application
+Icon=adevplus20128
+MimeType=x-scheme-handler/adevplus20;
+Categories=Office;Finance;

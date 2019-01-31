@@ -1,0 +1,6 @@
+usr/local/bin/adevplus20-qt usr/bin
+share/pixmaps/adevplus2032.xpm usr/share/pixmaps
+share/pixmaps/adevplus2016.xpm usr/share/pixmaps
+share/pixmaps/adevplus20128.png usr/share/pixmaps
+debian/adevplus20-qt.desktop usr/share/applications
+debian/adevplus20-qt.protocol usr/share/kde4/services/

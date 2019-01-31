@@ -1,0 +1,11 @@
+[Protocol]
+exec=adevplus20-qt '%u'
+protocol=adevplus20
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
