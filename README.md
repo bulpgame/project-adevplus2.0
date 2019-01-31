@@ -1,22 +1,22 @@
-Adevplus20 Core staging tree 0.12.3
+Adevplus2.0 Core staging tree 0.12.3
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/adevplus20pay/adevplus20.svg?branch=master)](https://travis-ci.org/adevplus20pay/adevplus20) `develop:` [![Build Status](https://travis-ci.org/adevplus20pay/adevplus20.svg?branch=develop)](https://travis-ci.org/adevplus20pay/adevplus20/branches)
+`master:` [![Build Status](https://travis-ci.org/FabiannoLimma/project-adevplus2.0.svg?branch=master)](https://travis-ci.org/adevplus20pay/adevplus20) `develop:` [![Build Status](https://travis-ci.org/FabiannoLimma/project-adevplus2.0.svg?branch=develop)](https://travis-ci.org/FabiannoLimma/project-adevplus2.0/branches)
 
-https://www.adevplus20.org
+http://www.adevplus.org
 
 
-What is Adevplus20?
+What is Adevplus2.0?
 ----------------
 
 Adevplus20 is an experimental digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Adevplus20 uses peer-to-peer technology
+payments to anyone, anywhere in the world. Adevplus2.0 uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Adevplus20 Core is the name of the open
+are carried out collectively by the network. Adevplus2.0 Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Adevplus20 Core software, see https://www.adevplus20.org/get-adevplus20/.
+the Adevplus2.0 Core software, see http://www.adevplus.org/.
 
 
 License
@@ -29,8 +29,8 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/adevplus20pay/adevplus20/tags) are created to indicate new official,
-stable release versions of Adevplus20 Core.
+[Tags](https://github.com/fabiannoLimmay/project-adevplus2.0/tags) are created to indicate new official,
+stable release versions of Adevplus2.0 Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -74,4 +74,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also follow the [forum](https://www.adevplus20.org/forum/topic/adevplus20-worldwide-collaboration.88/).
+Translators should also follow the [forum](https://www.adevplus.org/forum/).
