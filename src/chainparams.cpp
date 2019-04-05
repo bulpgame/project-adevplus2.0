@@ -144,8 +144,8 @@ public:
         consensus.BIP66Height = 0; 
         consensus.DIP0001Height = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
-        consensus.nPowTargetTimespan = 5 * 60;
-        consensus.nPowTargetSpacing = 5 * 60;
+        consensus.nPowTargetTimespan = 15 * 60;
+        consensus.nPowTargetSpacing = 15 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 0;
@@ -246,13 +246,15 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
-
+        strSporkKey = "04c2649fd3fda82467dd1e40ec276202d7f4d3451a1503364e5177419410986db87bb7b04d6bc31a8a9a2bb75433ef1c23778578054ed9fe4e76391dbd025f483e";
         strSporkAddress = "AQsN6Y1CdXB1c9wLH4fFcVhMriNgMBzKca";
+        nStartMasternodePayments = 1554380393; //Thursday, April 4, 2019 12:19:53 PM
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (  0, uint256S("0x000004035064d2315f2d1be56773c4bece52850f68c7713bee5cc8e50c557b7a"))
-        };
+           (  0, uint256S("0x000004035064d2315f2d1be56773c4bece52850f68c7713bee5cc8e50c557b7a"))
+        (17410, uint256("0x00000000001402b488cd993c6b95bd9048914b14664a45883249b96af909d4a1"))
+            };
 
         chainTxData = ChainTxData{
             1547712610, // * UNIX timestamp of last known number of transactions
@@ -292,8 +294,8 @@ public:
         consensus.BIP66Height = 0; 
         consensus.DIP0001Height = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 20
-        consensus.nPowTargetTimespan = 5 * 60;
-        consensus.nPowTargetSpacing = 5 * 60;
+        consensus.nPowTargetTimespan = 15 * 60;
+        consensus.nPowTargetSpacing = 15 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 4001; // nPowKGWHeight >= nPowDGWHeight means "no KGW"
@@ -386,9 +388,10 @@ public:
         fAllowMultiplePorts = false;
 
         nPoolMaxTransactions = 3;
-        nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
-
-        strSporkAddress = "2bk5Mbt2qLgEY64jAFtJy2UjooENPKaC9Z";
+        nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 1 hour
+        strSporkKey = "0468754b7ad127ea36087e2489e1380fba7de82abc60096336ab7ae1f960dabac8d3f651a8f800663361fa06eb41c1149b95fc7e8ec433cbee39aff22e3400d09b";
+        strSporkAddress = "AQsN6Y1CdXB1c9wLH4fFcVhMriNgMBzKca";
+        nStartMasternodePayments = 1554380393; //Thursday, April 4, 2019 12:19:53 PM
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
@@ -433,8 +436,8 @@ public:
         consensus.BIP66Height = 1; // BIP66 activated immediately on devnet
         consensus.DIP0001Height = 2; // DIP0001 activated immediately on devnet
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); // ~uint256(0) >> 1
-        consensus.nPowTargetTimespan = 5 * 60;
-        consensus.nPowTargetSpacing = 5 * 60;
+        consensus.nPowTargetTimespan = 15 * 60;
+        consensus.nPowTargetSpacing = 15 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 4001; // nPowKGWHeight >= nPowDGWHeight means "no KGW"

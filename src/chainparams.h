@@ -85,8 +85,10 @@ public:
     const CCheckpointData& Checkpoints() const { return checkpointData; }
     const ChainTxData& TxData() const { return chainTxData; }
     int PoolMaxTransactions() const { return nPoolMaxTransactions; }
+    std::string SporkKey() const { return strSporkKey; } 
     int FulfilledRequestExpireTime() const { return nFulfilledRequestExpireTime; }
     const std::string& SporkAddress() const { return strSporkAddress; }
+    int64_t StartMasternodePayments() const { return nStartMasternodePayments; }
 protected:
     CChainParams() {}
 
@@ -112,8 +114,10 @@ protected:
     CCheckpointData checkpointData;
     ChainTxData chainTxData;
     int nPoolMaxTransactions;
+    std::string strSporkKey;
     int nFulfilledRequestExpireTime;
     std::string strSporkAddress;
+    int64_t nStartMasternodePayments;
 };
 
 /**
